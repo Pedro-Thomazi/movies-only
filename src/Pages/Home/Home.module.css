@@ -1,0 +1,65 @@
+.mainHome {
+  color: #fff;
+}
+
+#contant {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.562)), url('../../assets/bg-image.webp');
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+}
+
+#contant>div {
+  position: absolute;
+  width: 45%;
+  background-color: #0000007e;
+  color: #fff;
+  padding: 20px;
+  top: 110px;
+  left: 50px;
+}
+
+@media (max-width: 772px) {
+  #contant>div {
+    top: 50px;
+    width: 70%;
+  }
+}
+
+.movies #seiLa {
+  font-size: 1.2em;
+  background-color: #0f0f0f;
+  width: 100%;
+  padding: 5px 10px;
+  margin: 20px auto;
+}
+
+.movies #seiLa .h2 {
+  margin: 40px 10px;
+}
+
+.movies #seiLa p {
+  line-height: 160%;
+  margin: 0 30px 20px 30px;
+}
+
+#movieList {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 50px;
+  /* border: 1px solid red; */
+}
+
+@media (max-width: 1020px) {
+  #movieList {
+    margin: 0px;
+  }
+}
+
+#movieList li {
+  /* border: 1px solid red; */
+  margin: 10px 0px;
+
+}

@@ -1,0 +1,17 @@
+#infoContainer {
+  color: #fff;
+}
+
+#infoContainer .tagline {
+  color: #cc2727;
+  font-size: 1.5em;
+}
+
+#infoContainer .infoMovie {
+  border-bottom: 2px solid #cc2727;
+  margin-bottom: 30px;
+}
+
+#infoContainer .infoMovie p {
+  font-size: 1.2em;
+}

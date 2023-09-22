@@ -1,0 +1,29 @@
+.movie {
+  background-color: #1f1f1f;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.movie h2 {
+  color: #fff;
+}
+
+.movie img {
+  max-width: 600px;
+  width: 100%;
+}
+
+.movie p {
+  color: #fff;
+}
+
+.movie p svg {
+  color: goldenrod;
+  margin-right: 5px;
+}
+
+
+.movie a {
+  width: 100%;
+}

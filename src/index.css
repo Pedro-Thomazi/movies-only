@@ -1,0 +1,29 @@
+body {
+  background-color: #2f2f2f;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.principalBtn {
+  color: #cc2727;
+  border: 1px solid #cc2727;
+  font-size: 1.3em;
+  padding: 10px 45px;
+  transition: .4s;
+}
+
+.principalBtn:hover {
+  background-color: #cc2727;
+  color: #fff;
+  border-color: transparent;
+}
+
+/* * {
+  border: 1px solid #cc2727;
+} */
